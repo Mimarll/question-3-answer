@@ -26,7 +26,7 @@ Functional Requirements
    Create delivery orders, calculate costs, and generate PDF invoices for clients.
 
 9. FR9: Maintenance & Fuel Log  
-   Record truck maintenance schedules and fuel costs with date, cost, and notes.
+   Record truck maintenance schedules and fuel costs with date, and cost.
 
 10. FR10: Notification System 
     Send alerts to drivers and clients about upcoming schedules, updates, or delays.
@@ -45,7 +45,7 @@ Non-Functional Requirements
   System must work smoothly on both desktop and mobile browsers.
 
 Technology Justification
-- Backend: Node.js + Express — scalable, event-driven, large ecosystem for real‑time features.  
+- Backend: Node.js + Express — scalable, event-driven, large ecosystem for real‑time features.  (PYTHON3)
 - Database: MySQL — relational model fits transactional integrity for truck, driver & billing data.  
 - Frontend: React + Tailwind CSS — component‑driven, responsive UI, quick iteration.  
 - Hosting: AWS Elastic Beanstalk with RDS — managed scalability, high availability SLA.
